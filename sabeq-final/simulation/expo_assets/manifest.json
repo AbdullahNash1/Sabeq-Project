@@ -1,0 +1,212 @@
+{
+ "canopy": {
+  "color": [
+   0.97,
+   0.97,
+   0.95
+  ],
+  "rough": 0.6,
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/canopy.obj",
+  "tex_path": null
+ },
+ "desert": {
+  "tex": "sand",
+  "shadow": false,
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/desert.obj",
+  "tex_path": "/home/abdulaziz/emergency_drone/expo_assets/textures/sand.png"
+ },
+ "frond": {
+  "color": [
+   0.32,
+   0.5,
+   0.17
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/frond.obj",
+  "tex_path": null
+ },
+ "gold": {
+  "color": [
+   0.88,
+   0.64,
+   0.16
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/gold.obj",
+  "tex_path": null
+ },
+ "grass": {
+  "tex": "grass",
+  "shadow": false,
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/grass.obj",
+  "tex_path": "/home/abdulaziz/emergency_drone/expo_assets/textures/grass.png"
+ },
+ "green": {
+  "color": [
+   0.08,
+   0.5,
+   0.28
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/green.obj",
+  "tex_path": null
+ },
+ "junction": {
+  "tex": "junction",
+  "shadow": false,
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/junction.obj",
+  "tex_path": "/home/abdulaziz/emergency_drone/expo_assets/textures/junction.png"
+ },
+ "kerb": {
+  "color": [
+   0.74,
+   0.72,
+   0.68
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/kerb.obj",
+  "tex_path": null
+ },
+ "leaf_a": {
+  "color": [
+   0.24,
+   0.45,
+   0.18
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/leaf_a.obj",
+  "tex_path": null
+ },
+ "leaf_b": {
+  "color": [
+   0.38,
+   0.54,
+   0.2
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/leaf_b.obj",
+  "tex_path": null
+ },
+ "medsign": {
+  "tex": "medsign",
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/medsign.obj",
+  "tex_path": "/home/abdulaziz/emergency_drone/expo_assets/textures/medsign.png"
+ },
+ "metal": {
+  "color": [
+   0.24,
+   0.25,
+   0.27
+  ],
+  "rough": 0.5,
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/metal.obj",
+  "tex_path": null
+ },
+ "palm_trunk": {
+  "color": [
+   0.52,
+   0.42,
+   0.3
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/palm_trunk.obj",
+  "tex_path": null
+ },
+ "panel": {
+  "tex": "f_panel",
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/panel.obj",
+  "tex_path": "/home/abdulaziz/emergency_drone/expo_assets/textures/f_panel.png"
+ },
+ "plaza": {
+  "tex": "plaza",
+  "shadow": false,
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/plaza.obj",
+  "tex_path": "/home/abdulaziz/emergency_drone/expo_assets/textures/plaza.png"
+ },
+ "plot": {
+  "tex": "plot",
+  "shadow": false,
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/plot.obj",
+  "tex_path": "/home/abdulaziz/emergency_drone/expo_assets/textures/plot.png"
+ },
+ "red": {
+  "color": [
+   0.82,
+   0.08,
+   0.1
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/red.obj",
+  "tex_path": null
+ },
+ "roof": {
+  "tex": "roof",
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/roof.obj",
+  "tex_path": "/home/abdulaziz/emergency_drone/expo_assets/textures/roof.png"
+ },
+ "shrub": {
+  "color": [
+   0.2,
+   0.38,
+   0.15
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/shrub.obj",
+  "tex_path": null
+ },
+ "sidewalk": {
+  "tex": "sidewalk",
+  "shadow": false,
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/sidewalk.obj",
+  "tex_path": "/home/abdulaziz/emergency_drone/expo_assets/textures/sidewalk.png"
+ },
+ "street": {
+  "tex": "street",
+  "shadow": false,
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/street.obj",
+  "tex_path": "/home/abdulaziz/emergency_drone/expo_assets/textures/street.png"
+ },
+ "teal": {
+  "color": [
+   0.07,
+   0.55,
+   0.56
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/teal.obj",
+  "tex_path": null
+ },
+ "terracotta": {
+  "color": [
+   0.76,
+   0.33,
+   0.2
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/terracotta.obj",
+  "tex_path": null
+ },
+ "trunk": {
+  "color": [
+   0.38,
+   0.28,
+   0.19
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/trunk.obj",
+  "tex_path": null
+ },
+ "water": {
+  "tex": "water",
+  "rough": 0.12,
+  "shadow": false,
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/water.obj",
+  "tex_path": "/home/abdulaziz/emergency_drone/expo_assets/textures/water.png"
+ },
+ "white": {
+  "color": [
+   0.94,
+   0.93,
+   0.9
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/white.obj",
+  "tex_path": null
+ },
+ "wood": {
+  "color": [
+   0.5,
+   0.34,
+   0.2
+  ],
+  "obj": "/home/abdulaziz/emergency_drone/expo_assets/meshes/wood.obj",
+  "tex_path": null
+ }
+}

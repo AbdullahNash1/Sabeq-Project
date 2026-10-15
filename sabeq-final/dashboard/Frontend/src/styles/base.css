@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+:root[lang='ar'] * {
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+a {
+  color: var(--acc);
+}
+
+a:hover {
+  color: var(--accDeep);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.eyebrow {
+  font: var(--fw-medium) var(--fs-xs) var(--font-mono);
+  color: var(--mut);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.muted {
+  color: var(--mut);
+}

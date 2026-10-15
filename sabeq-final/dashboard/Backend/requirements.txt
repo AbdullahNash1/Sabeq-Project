@@ -1,0 +1,14 @@
+# Runtime
+fastapi>=0.110,<1
+uvicorn[standard]>=0.29
+pydantic>=2.11,<3  # serialize_by_alias / validate_by_name
+pydantic-settings>=2.2,<3
+Pillow>=10.1  # MJPEG: mock frames and /camera/image encoding
+PyYAML>=6.0  # ROUTES_YAML (also python3-yaml on the ROS machine)
+
+# Tests
+pytest>=8
+httpx>=0.27
+
+# NOTE: rclpy and vision_msgs come from the ROS 2 Humble apt packages
+# (source /opt/ros/humble/setup.bash), not from pip.

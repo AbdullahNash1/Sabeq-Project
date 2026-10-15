@@ -1,0 +1,1590 @@
+{
+ "world": "expo_demo",
+ "road_w": 8.0,
+ "home_enu": [
+  0.0,
+  -0.1
+ ],
+ "hover_point_enu": [
+  0.0,
+  0.0
+ ],
+ "incident_enu": [
+  0.0,
+  112.0
+ ],
+ "cart_start_enu": [
+  0.0,
+  0.0,
+  1.5708
+ ],
+ "routes": {
+  "A_west": {
+   "waypoints_enu": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     -36,
+     36
+    ],
+    [
+     -36,
+     92
+    ],
+    [
+     -16,
+     112
+    ]
+   ],
+   "people": 90,
+   "scan_yaw_enu_deg": 135.0,
+   "scan_yaw_ned_deg": 315.0
+  },
+  "B_north": {
+   "waypoints_enu": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0,
+     98
+    ]
+   ],
+   "people": 125,
+   "scan_yaw_enu_deg": 90.0,
+   "scan_yaw_ned_deg": 0.0
+  },
+  "C_east": {
+   "waypoints_enu": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     36,
+     36
+    ],
+    [
+     36,
+     92
+    ],
+    [
+     16,
+     112
+    ]
+   ],
+   "people": 60,
+   "scan_yaw_enu_deg": 45.0,
+   "scan_yaw_ned_deg": 45.0
+  }
+ },
+ "people": [
+  {
+   "name": "person_A_west_00",
+   "route": "A_west",
+   "s": 21.8,
+   "x": -13.786,
+   "y": 17.045,
+   "yaw": 0.9483,
+   "clear_x": -11.526,
+   "clear_y": 19.304
+  },
+  {
+   "name": "person_A_west_01",
+   "route": "A_west",
+   "s": 16.521,
+   "x": -11.85,
+   "y": 11.515,
+   "yaw": -0.8439,
+   "clear_x": -15.571,
+   "clear_y": 7.793
+  },
+  {
+   "name": "person_A_west_02",
+   "route": "A_west",
+   "s": 15.787,
+   "x": -10.854,
+   "y": 11.473,
+   "yaw": -2.7027,
+   "clear_x": -7.274,
+   "clear_y": 15.052
+  },
+  {
+   "name": "person_A_west_03",
+   "route": "A_west",
+   "s": 16.905,
+   "x": -11.601,
+   "y": 12.306,
+   "yaw": 2.0537,
+   "clear_x": -8.065,
+   "clear_y": 15.843
+  },
+  {
+   "name": "person_A_west_04",
+   "route": "A_west",
+   "s": 17.6,
+   "x": -11.153,
+   "y": 13.737,
+   "yaw": 0.8007,
+   "clear_x": -8.556,
+   "clear_y": 16.334
+  },
+  {
+   "name": "person_A_west_05",
+   "route": "A_west",
+   "s": 34.902,
+   "x": -25.039,
+   "y": 24.32,
+   "yaw": -0.6492,
+   "clear_x": -28.568,
+   "clear_y": 20.79
+  },
+  {
+   "name": "person_A_west_06",
+   "route": "A_west",
+   "s": 35.501,
+   "x": -22.987,
+   "y": 27.219,
+   "yaw": 2.2523,
+   "clear_x": -21.214,
+   "clear_y": 28.992
+  },
+  {
+   "name": "person_A_west_07",
+   "route": "A_west",
+   "s": 32.139,
+   "x": -21.235,
+   "y": 24.215,
+   "yaw": 0.5127,
+   "clear_x": -18.836,
+   "clear_y": 26.615
+  },
+  {
+   "name": "person_A_west_08",
+   "route": "A_west",
+   "s": 28.417,
+   "x": -19.498,
+   "y": 20.689,
+   "yaw": 0.3,
+   "clear_x": -16.205,
+   "clear_y": 23.983
+  },
+  {
+   "name": "person_A_west_09",
+   "route": "A_west",
+   "s": 16.319,
+   "x": -9.484,
+   "y": 13.594,
+   "yaw": -1.8475,
+   "clear_x": -7.65,
+   "clear_y": 15.428
+  },
+  {
+   "name": "person_A_west_10",
+   "route": "A_west",
+   "s": 29.288,
+   "x": -20.372,
+   "y": 21.048,
+   "yaw": -1.1677,
+   "clear_x": -16.821,
+   "clear_y": 24.599
+  },
+  {
+   "name": "person_A_west_11",
+   "route": "A_west",
+   "s": 27.297,
+   "x": -19.083,
+   "y": 19.52,
+   "yaw": -1.2581,
+   "clear_x": -15.413,
+   "clear_y": 23.191
+  },
+  {
+   "name": "person_A_west_12",
+   "route": "A_west",
+   "s": 31.682,
+   "x": -23.331,
+   "y": 21.474,
+   "yaw": -1.6079,
+   "clear_x": -26.292,
+   "clear_y": 18.513
+  },
+  {
+   "name": "person_A_west_13",
+   "route": "A_west",
+   "s": 33.378,
+   "x": -24.673,
+   "y": 22.531,
+   "yaw": -1.3324,
+   "clear_x": -27.491,
+   "clear_y": 19.713
+  },
+  {
+   "name": "person_A_west_14",
+   "route": "A_west",
+   "s": 23.781,
+   "x": -18.015,
+   "y": 15.615,
+   "yaw": -2.1866,
+   "clear_x": -20.704,
+   "clear_y": 12.926
+  },
+  {
+   "name": "person_A_west_15",
+   "route": "A_west",
+   "s": 25.268,
+   "x": -15.717,
+   "y": 20.018,
+   "yaw": 1.0569,
+   "clear_x": -13.978,
+   "clear_y": 21.756
+  },
+  {
+   "name": "person_A_west_16",
+   "route": "A_west",
+   "s": 31.056,
+   "x": -22.301,
+   "y": 21.619,
+   "yaw": 2.3592,
+   "clear_x": -25.849,
+   "clear_y": 18.071
+  },
+  {
+   "name": "person_A_west_17",
+   "route": "A_west",
+   "s": 21.589,
+   "x": -16.177,
+   "y": 14.354,
+   "yaw": 0.5929,
+   "clear_x": -19.155,
+   "clear_y": 11.376
+  },
+  {
+   "name": "person_B_north_00",
+   "route": "B_north",
+   "s": 16.536,
+   "x": -1.119,
+   "y": 16.536,
+   "yaw": 1.784,
+   "clear_x": -5.5,
+   "clear_y": 16.536
+  },
+  {
+   "name": "person_B_north_01",
+   "route": "B_north",
+   "s": 33.838,
+   "x": 2.281,
+   "y": 33.838,
+   "yaw": 1.3579,
+   "clear_x": 5.5,
+   "clear_y": 33.838
+  },
+  {
+   "name": "person_B_north_02",
+   "route": "B_north",
+   "s": 28.865,
+   "x": 2.356,
+   "y": 28.865,
+   "yaw": 2.4054,
+   "clear_x": 5.5,
+   "clear_y": 28.865
+  },
+  {
+   "name": "person_B_north_03",
+   "route": "B_north",
+   "s": 35.318,
+   "x": 1.851,
+   "y": 35.318,
+   "yaw": 2.8432,
+   "clear_x": 5.5,
+   "clear_y": 35.318
+  },
+  {
+   "name": "person_B_north_04",
+   "route": "B_north",
+   "s": 23.363,
+   "x": 0.084,
+   "y": 23.363,
+   "yaw": 3.078,
+   "clear_x": 5.5,
+   "clear_y": 23.363
+  },
+  {
+   "name": "person_B_north_05",
+   "route": "B_north",
+   "s": 32.481,
+   "x": 2.234,
+   "y": 32.481,
+   "yaw": -0.4303,
+   "clear_x": 5.5,
+   "clear_y": 32.481
+  },
+  {
+   "name": "person_B_north_06",
+   "route": "B_north",
+   "s": 25.828,
+   "x": 1.062,
+   "y": 25.828,
+   "yaw": -1.9117,
+   "clear_x": 5.5,
+   "clear_y": 25.828
+  },
+  {
+   "name": "person_B_north_07",
+   "route": "B_north",
+   "s": 21.689,
+   "x": -1.466,
+   "y": 21.689,
+   "yaw": -3.0192,
+   "clear_x": -5.5,
+   "clear_y": 21.689
+  },
+  {
+   "name": "person_B_north_08",
+   "route": "B_north",
+   "s": 26.635,
+   "x": 0.393,
+   "y": 26.635,
+   "yaw": -3.028,
+   "clear_x": 5.5,
+   "clear_y": 26.635
+  },
+  {
+   "name": "person_B_north_09",
+   "route": "B_north",
+   "s": 25.758,
+   "x": 2.876,
+   "y": 25.758,
+   "yaw": 3.0479,
+   "clear_x": 5.5,
+   "clear_y": 25.758
+  },
+  {
+   "name": "person_B_north_10",
+   "route": "B_north",
+   "s": 31.556,
+   "x": -3.113,
+   "y": 31.556,
+   "yaw": -2.4832,
+   "clear_x": -5.5,
+   "clear_y": 31.556
+  },
+  {
+   "name": "person_B_north_11",
+   "route": "B_north",
+   "s": 20.577,
+   "x": 3.039,
+   "y": 20.577,
+   "yaw": 1.753,
+   "clear_x": 5.5,
+   "clear_y": 20.577
+  },
+  {
+   "name": "person_B_north_12",
+   "route": "B_north",
+   "s": 23.867,
+   "x": -2.715,
+   "y": 23.867,
+   "yaw": 2.0042,
+   "clear_x": -5.5,
+   "clear_y": 23.867
+  },
+  {
+   "name": "person_B_north_13",
+   "route": "B_north",
+   "s": 34.303,
+   "x": -0.466,
+   "y": 34.303,
+   "yaw": 1.2593,
+   "clear_x": -5.5,
+   "clear_y": 34.303
+  },
+  {
+   "name": "person_B_north_14",
+   "route": "B_north",
+   "s": 16.879,
+   "x": 2.92,
+   "y": 16.879,
+   "yaw": 1.1825,
+   "clear_x": 5.5,
+   "clear_y": 16.879
+  },
+  {
+   "name": "person_B_north_15",
+   "route": "B_north",
+   "s": 23.932,
+   "x": 2.822,
+   "y": 23.932,
+   "yaw": 2.7542,
+   "clear_x": 5.5,
+   "clear_y": 23.932
+  },
+  {
+   "name": "person_B_north_16",
+   "route": "B_north",
+   "s": 28.323,
+   "x": -1.991,
+   "y": 28.323,
+   "yaw": -2.6154,
+   "clear_x": -5.5,
+   "clear_y": 28.323
+  },
+  {
+   "name": "person_B_north_17",
+   "route": "B_north",
+   "s": 32.981,
+   "x": 2.86,
+   "y": 32.981,
+   "yaw": 2.2794,
+   "clear_x": 5.5,
+   "clear_y": 32.981
+  },
+  {
+   "name": "person_B_north_18",
+   "route": "B_north",
+   "s": 24.529,
+   "x": 1.062,
+   "y": 24.529,
+   "yaw": 0.3334,
+   "clear_x": 5.5,
+   "clear_y": 24.529
+  },
+  {
+   "name": "person_B_north_19",
+   "route": "B_north",
+   "s": 34.46,
+   "x": 1.532,
+   "y": 34.46,
+   "yaw": -2.3296,
+   "clear_x": 5.5,
+   "clear_y": 34.46
+  },
+  {
+   "name": "person_B_north_20",
+   "route": "B_north",
+   "s": 17.298,
+   "x": 2.234,
+   "y": 17.298,
+   "yaw": -2.825,
+   "clear_x": 5.5,
+   "clear_y": 17.298
+  },
+  {
+   "name": "person_B_north_21",
+   "route": "B_north",
+   "s": 19.237,
+   "x": 1.241,
+   "y": 19.237,
+   "yaw": -1.2252,
+   "clear_x": 5.5,
+   "clear_y": 19.237
+  },
+  {
+   "name": "person_B_north_22",
+   "route": "B_north",
+   "s": 30.949,
+   "x": 1.386,
+   "y": 30.949,
+   "yaw": 0.0006,
+   "clear_x": 5.5,
+   "clear_y": 30.949
+  },
+  {
+   "name": "person_B_north_23",
+   "route": "B_north",
+   "s": 15.381,
+   "x": 1.647,
+   "y": 15.381,
+   "yaw": -3.0452,
+   "clear_x": 5.5,
+   "clear_y": 15.381
+  },
+  {
+   "name": "person_B_north_24",
+   "route": "B_north",
+   "s": 30.395,
+   "x": -0.337,
+   "y": 30.395,
+   "yaw": -1.9512,
+   "clear_x": -5.5,
+   "clear_y": 30.395
+  },
+  {
+   "name": "person_B_north_25",
+   "route": "B_north",
+   "s": 24.97,
+   "x": -2.869,
+   "y": 24.97,
+   "yaw": -2.4738,
+   "clear_x": -5.5,
+   "clear_y": 24.97
+  },
+  {
+   "name": "person_C_east_00",
+   "route": "C_east",
+   "s": 15.06,
+   "x": 11.677,
+   "y": 9.622,
+   "yaw": -0.9333,
+   "clear_x": 14.538,
+   "clear_y": 6.76
+  },
+  {
+   "name": "person_C_east_01",
+   "route": "C_east",
+   "s": 35.066,
+   "x": 26.551,
+   "y": 23.039,
+   "yaw": 2.9171,
+   "clear_x": 28.684,
+   "clear_y": 20.906
+  },
+  {
+   "name": "person_C_east_02",
+   "route": "C_east",
+   "s": 19.355,
+   "x": 14.355,
+   "y": 13.017,
+   "yaw": 2.0205,
+   "clear_x": 17.575,
+   "clear_y": 9.797
+  },
+  {
+   "name": "person_C_east_03",
+   "route": "C_east",
+   "s": 32.262,
+   "x": 23.128,
+   "y": 22.498,
+   "yaw": -2.8321,
+   "clear_x": 26.702,
+   "clear_y": 18.924
+  },
+  {
+   "name": "person_C_east_04",
+   "route": "C_east",
+   "s": 24.943,
+   "x": 18.231,
+   "y": 17.043,
+   "yaw": 2.6358,
+   "clear_x": 21.526,
+   "clear_y": 13.748
+  },
+  {
+   "name": "person_C_east_05",
+   "route": "C_east",
+   "s": 33.837,
+   "x": 26.118,
+   "y": 21.734,
+   "yaw": -0.5604,
+   "clear_x": 27.815,
+   "clear_y": 20.037
+  },
+  {
+   "name": "person_C_east_06",
+   "route": "C_east",
+   "s": 32.048,
+   "x": 21.417,
+   "y": 23.906,
+   "yaw": -2.8862,
+   "clear_x": 18.772,
+   "clear_y": 26.551
+  },
+  {
+   "name": "person_C_east_07",
+   "route": "C_east",
+   "s": 15.732,
+   "x": 13.166,
+   "y": 9.083,
+   "yaw": 2.6394,
+   "clear_x": 15.013,
+   "clear_y": 7.235
+  },
+  {
+   "name": "person_C_east_08",
+   "route": "C_east",
+   "s": 20.397,
+   "x": 13.269,
+   "y": 15.577,
+   "yaw": 2.5042,
+   "clear_x": 10.534,
+   "clear_y": 18.312
+  },
+  {
+   "name": "person_C_east_09",
+   "route": "C_east",
+   "s": 22.12,
+   "x": 16.704,
+   "y": 14.579,
+   "yaw": 2.8757,
+   "clear_x": 19.531,
+   "clear_y": 11.752
+  },
+  {
+   "name": "person_incident_00",
+   "route": "incident",
+   "s": null,
+   "x": 1.498,
+   "y": 113.764,
+   "yaw": -2.2853,
+   "clear_x": null,
+   "clear_y": null
+  },
+  {
+   "name": "person_incident_01",
+   "route": "incident",
+   "s": null,
+   "x": 0.34,
+   "y": 114.277,
+   "yaw": -1.7864,
+   "clear_x": null,
+   "clear_y": null
+  },
+  {
+   "name": "person_incident_02",
+   "route": "incident",
+   "s": null,
+   "x": -1.412,
+   "y": 113.725,
+   "yaw": -0.6902,
+   "clear_x": null,
+   "clear_y": null
+  },
+  {
+   "name": "person_incident_03",
+   "route": "incident",
+   "s": null,
+   "x": -2.163,
+   "y": 112.683,
+   "yaw": -0.4725,
+   "clear_x": null,
+   "clear_y": null
+  },
+  {
+   "name": "person_incident_04",
+   "route": "incident",
+   "s": null,
+   "x": -2.074,
+   "y": 111.045,
+   "yaw": 0.6289,
+   "clear_x": null,
+   "clear_y": null
+  },
+  {
+   "name": "person_incident_05",
+   "route": "incident",
+   "s": null,
+   "x": -0.978,
+   "y": 110.105,
+   "yaw": 1.034,
+   "clear_x": null,
+   "clear_y": null
+  },
+  {
+   "name": "person_incident_06",
+   "route": "incident",
+   "s": null,
+   "x": 0.59,
+   "y": 109.91,
+   "yaw": 1.6197,
+   "clear_x": null,
+   "clear_y": null
+  },
+  {
+   "name": "person_incident_07",
+   "route": "incident",
+   "s": null,
+   "x": 1.807,
+   "y": 110.652,
+   "yaw": 2.739,
+   "clear_x": null,
+   "clear_y": null
+  },
+  {
+   "name": "person_incident_08",
+   "route": "incident",
+   "s": null,
+   "x": 2.214,
+   "y": 112.054,
+   "yaw": -2.9629,
+   "clear_x": null,
+   "clear_y": null
+  },
+  {
+   "name": "person_A_west_g00",
+   "route": "A_west",
+   "s": 38.71,
+   "x": -29.099,
+   "y": 28.027,
+   "yaw": 0.0,
+   "clear_x": -32.433,
+   "clear_y": 24.694,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_A_west_g01",
+   "route": "A_west",
+   "s": 46.374,
+   "x": -36.475,
+   "y": 34.229,
+   "yaw": 0.0,
+   "clear_x": -39.314,
+   "clear_y": 31.39,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_A_west_g02",
+   "route": "A_west",
+   "s": 56.477,
+   "x": -37.438,
+   "y": 42.501,
+   "yaw": 0.0,
+   "clear_x": -41.518,
+   "clear_y": 42.501,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_A_west_g03",
+   "route": "A_west",
+   "s": 63.746,
+   "x": -37.797,
+   "y": 48.834,
+   "yaw": 0.0,
+   "clear_x": -40.9,
+   "clear_y": 48.834,
+   "group": true,
+   "size": 1
+  },
+  {
+   "name": "person_A_west_g04",
+   "route": "A_west",
+   "s": 69.317,
+   "x": -38.261,
+   "y": 55.721,
+   "yaw": 0.0,
+   "clear_x": -41.175,
+   "clear_y": 55.721,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_A_west_g05",
+   "route": "A_west",
+   "s": 74.655,
+   "x": -37.113,
+   "y": 59.743,
+   "yaw": 0.0,
+   "clear_x": -40.9,
+   "clear_y": 59.743,
+   "group": true,
+   "size": 1
+  },
+  {
+   "name": "person_A_west_g06",
+   "route": "A_west",
+   "s": 83.897,
+   "x": -38.914,
+   "y": 68.986,
+   "yaw": 0.0,
+   "clear_x": -40.9,
+   "clear_y": 68.986,
+   "group": true,
+   "size": 1
+  },
+  {
+   "name": "person_A_west_g07",
+   "route": "A_west",
+   "s": 89.364,
+   "x": -38.293,
+   "y": 76.12,
+   "yaw": 0.0,
+   "clear_x": -41.351,
+   "clear_y": 76.12,
+   "group": true,
+   "size": 4
+  },
+  {
+   "name": "person_A_west_g08",
+   "route": "A_west",
+   "s": 94.449,
+   "x": -37.289,
+   "y": 81.656,
+   "yaw": 0.0,
+   "clear_x": -42.152,
+   "clear_y": 81.656,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_A_west_g09",
+   "route": "A_west",
+   "s": 121.06,
+   "x": -26.864,
+   "y": 104.49,
+   "yaw": 0.0,
+   "clear_x": -29.413,
+   "clear_y": 107.04,
+   "group": true,
+   "size": 4
+  },
+  {
+   "name": "person_A_west_g10",
+   "route": "A_west",
+   "s": 126.13,
+   "x": -22.617,
+   "y": 107.138,
+   "yaw": 0.0,
+   "clear_x": -26.074,
+   "clear_y": 110.595,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_A_west_g11",
+   "route": "A_west",
+   "s": 131.497,
+   "x": -17.879,
+   "y": 112.431,
+   "yaw": 0.0,
+   "clear_x": -20.645,
+   "clear_y": 115.197,
+   "group": true,
+   "size": 4
+  },
+  {
+   "name": "person_A_west_g12",
+   "route": "A_west",
+   "s": 42.748,
+   "x": -28.868,
+   "y": 31.587,
+   "yaw": 0.0,
+   "clear_x": -26.763,
+   "clear_y": 33.692,
+   "group": true,
+   "size": 1
+  },
+  {
+   "name": "person_A_west_g13",
+   "route": "A_west",
+   "s": 48.959,
+   "x": -34.04,
+   "y": 37.139,
+   "yaw": 0.0,
+   "clear_x": -30.699,
+   "clear_y": 40.48,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_A_west_g14",
+   "route": "A_west",
+   "s": 54.347,
+   "x": -33.721,
+   "y": 42.314,
+   "yaw": 0.0,
+   "clear_x": -30.581,
+   "clear_y": 42.314,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_A_west_g15",
+   "route": "A_west",
+   "s": 61.987,
+   "x": -34.721,
+   "y": 48.868,
+   "yaw": 0.0,
+   "clear_x": -30.356,
+   "clear_y": 48.868,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_A_west_g16",
+   "route": "A_west",
+   "s": 70.072,
+   "x": -33.693,
+   "y": 56.423,
+   "yaw": 0.0,
+   "clear_x": -29.69,
+   "clear_y": 56.423,
+   "group": true,
+   "size": 6
+  },
+  {
+   "name": "person_A_west_g17",
+   "route": "A_west",
+   "s": 75.661,
+   "x": -34.555,
+   "y": 63.067,
+   "yaw": 0.0,
+   "clear_x": -30.306,
+   "clear_y": 63.067,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_A_west_g18",
+   "route": "A_west",
+   "s": 82.26,
+   "x": -33.651,
+   "y": 68.633,
+   "yaw": 0.0,
+   "clear_x": -30.873,
+   "clear_y": 68.633,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_A_west_g19",
+   "route": "A_west",
+   "s": 88.453,
+   "x": -33.781,
+   "y": 74.802,
+   "yaw": 0.0,
+   "clear_x": -30.03,
+   "clear_y": 74.802,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_A_west_g20",
+   "route": "A_west",
+   "s": 94.103,
+   "x": -34.608,
+   "y": 80.641,
+   "yaw": 0.0,
+   "clear_x": -29.997,
+   "clear_y": 80.641,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_A_west_g21",
+   "route": "A_west",
+   "s": 101.856,
+   "x": -35.349,
+   "y": 88.721,
+   "yaw": 0.0,
+   "clear_x": -30.764,
+   "clear_y": 88.721,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_A_west_g22",
+   "route": "A_west",
+   "s": 108.622,
+   "x": -32.849,
+   "y": 92.335,
+   "yaw": 0.0,
+   "clear_x": -30.66,
+   "clear_y": 90.146,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_A_west_g23",
+   "route": "A_west",
+   "s": 115.944,
+   "x": -27.356,
+   "y": 98.701,
+   "yaw": 0.0,
+   "clear_x": -23.987,
+   "clear_y": 95.333,
+   "group": true,
+   "size": 4
+  },
+  {
+   "name": "person_A_west_g24",
+   "route": "A_west",
+   "s": 122.568,
+   "x": -22.442,
+   "y": 103.109,
+   "yaw": 0.0,
+   "clear_x": -19.659,
+   "clear_y": 100.326,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_A_west_g25",
+   "route": "A_west",
+   "s": 129.545,
+   "x": -18.968,
+   "y": 108.581,
+   "yaw": 0.0,
+   "clear_x": -15.625,
+   "clear_y": 105.237,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_B_north_g00",
+   "route": "B_north",
+   "s": 36.106,
+   "x": -1.731,
+   "y": 38.417,
+   "yaw": 0.0,
+   "clear_x": -5.546,
+   "clear_y": 38.417,
+   "group": true,
+   "size": 5
+  },
+  {
+   "name": "person_B_north_g01",
+   "route": "B_north",
+   "s": 42.4,
+   "x": -2.016,
+   "y": 44.384,
+   "yaw": 0.0,
+   "clear_x": -6.759,
+   "clear_y": 44.384,
+   "group": true,
+   "size": 4
+  },
+  {
+   "name": "person_B_north_g02",
+   "route": "B_north",
+   "s": 48.26,
+   "x": -1.551,
+   "y": 49.12,
+   "yaw": 0.0,
+   "clear_x": -6.42,
+   "clear_y": 49.12,
+   "group": true,
+   "size": 6
+  },
+  {
+   "name": "person_B_north_g03",
+   "route": "B_north",
+   "s": 51.071,
+   "x": -1.708,
+   "y": 52.366,
+   "yaw": 0.0,
+   "clear_x": -6.536,
+   "clear_y": 52.366,
+   "group": true,
+   "size": 6
+  },
+  {
+   "name": "person_B_north_g04",
+   "route": "B_north",
+   "s": 54.569,
+   "x": -2.192,
+   "y": 56.063,
+   "yaw": 0.0,
+   "clear_x": -6.645,
+   "clear_y": 56.063,
+   "group": true,
+   "size": 4
+  },
+  {
+   "name": "person_B_north_g05",
+   "route": "B_north",
+   "s": 59.883,
+   "x": -1.532,
+   "y": 62.135,
+   "yaw": 0.0,
+   "clear_x": -5.857,
+   "clear_y": 62.135,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_B_north_g06",
+   "route": "B_north",
+   "s": 67.033,
+   "x": -1.827,
+   "y": 68.513,
+   "yaw": 0.0,
+   "clear_x": -6.181,
+   "clear_y": 68.513,
+   "group": true,
+   "size": 4
+  },
+  {
+   "name": "person_B_north_g07",
+   "route": "B_north",
+   "s": 73.635,
+   "x": -2.05,
+   "y": 75.75,
+   "yaw": 0.0,
+   "clear_x": -6.008,
+   "clear_y": 75.75,
+   "group": true,
+   "size": 6
+  },
+  {
+   "name": "person_B_north_g08",
+   "route": "B_north",
+   "s": 79.676,
+   "x": -1.837,
+   "y": 81.501,
+   "yaw": 0.0,
+   "clear_x": -5.792,
+   "clear_y": 81.501,
+   "group": true,
+   "size": 5
+  },
+  {
+   "name": "person_B_north_g09",
+   "route": "B_north",
+   "s": 85.53,
+   "x": -1.906,
+   "y": 86.704,
+   "yaw": 0.0,
+   "clear_x": -6.251,
+   "clear_y": 86.704,
+   "group": true,
+   "size": 6
+  },
+  {
+   "name": "person_B_north_g10",
+   "route": "B_north",
+   "s": 90.788,
+   "x": -1.528,
+   "y": 93.214,
+   "yaw": 0.0,
+   "clear_x": -6.103,
+   "clear_y": 93.214,
+   "group": true,
+   "size": 4
+  },
+  {
+   "name": "person_B_north_g11",
+   "route": "B_north",
+   "s": 96.849,
+   "x": -1.719,
+   "y": 96.888,
+   "yaw": 0.0,
+   "clear_x": -6.03,
+   "clear_y": 96.888,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_B_north_g12",
+   "route": "B_north",
+   "s": 37.515,
+   "x": 2.233,
+   "y": 39.396,
+   "yaw": 0.0,
+   "clear_x": 5.607,
+   "clear_y": 39.396,
+   "group": true,
+   "size": 6
+  },
+  {
+   "name": "person_B_north_g13",
+   "route": "B_north",
+   "s": 42.652,
+   "x": 2.04,
+   "y": 44.559,
+   "yaw": 0.0,
+   "clear_x": 5.316,
+   "clear_y": 44.559,
+   "group": true,
+   "size": 5
+  },
+  {
+   "name": "person_B_north_g14",
+   "route": "B_north",
+   "s": 47.737,
+   "x": 2.478,
+   "y": 50.388,
+   "yaw": 0.0,
+   "clear_x": 5.463,
+   "clear_y": 50.388,
+   "group": true,
+   "size": 4
+  },
+  {
+   "name": "person_B_north_g15",
+   "route": "B_north",
+   "s": 53.198,
+   "x": 1.756,
+   "y": 54.874,
+   "yaw": 0.0,
+   "clear_x": 5.709,
+   "clear_y": 54.874,
+   "group": true,
+   "size": 5
+  },
+  {
+   "name": "person_B_north_g16",
+   "route": "B_north",
+   "s": 58.807,
+   "x": 1.498,
+   "y": 60.218,
+   "yaw": 0.0,
+   "clear_x": 6.231,
+   "clear_y": 60.218,
+   "group": true,
+   "size": 6
+  },
+  {
+   "name": "person_B_north_g17",
+   "route": "B_north",
+   "s": 63.496,
+   "x": 1.356,
+   "y": 65.538,
+   "yaw": 0.0,
+   "clear_x": 5.481,
+   "clear_y": 65.538,
+   "group": true,
+   "size": 6
+  },
+  {
+   "name": "person_B_north_g18",
+   "route": "B_north",
+   "s": 69.371,
+   "x": 1.687,
+   "y": 69.371,
+   "yaw": 0.0,
+   "clear_x": 4.9,
+   "clear_y": 69.371,
+   "group": true,
+   "size": 1
+  },
+  {
+   "name": "person_B_north_g19",
+   "route": "B_north",
+   "s": 76.016,
+   "x": 1.315,
+   "y": 77.383,
+   "yaw": 0.0,
+   "clear_x": 6.144,
+   "clear_y": 77.383,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_B_north_g20",
+   "route": "B_north",
+   "s": 82.653,
+   "x": 0.479,
+   "y": 85.173,
+   "yaw": 0.0,
+   "clear_x": 5.097,
+   "clear_y": 85.173,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_B_north_g21",
+   "route": "B_north",
+   "s": 90.513,
+   "x": 2.516,
+   "y": 93.193,
+   "yaw": 0.0,
+   "clear_x": 5.431,
+   "clear_y": 93.193,
+   "group": true,
+   "size": 4
+  },
+  {
+   "name": "person_B_north_g22",
+   "route": "B_north",
+   "s": 96.785,
+   "x": 0.33,
+   "y": 96.785,
+   "yaw": 0.0,
+   "clear_x": 4.9,
+   "clear_y": 96.785,
+   "group": true,
+   "size": 1
+  },
+  {
+   "name": "person_C_east_g00",
+   "route": "C_east",
+   "s": 39.393,
+   "x": 27.61,
+   "y": 28.101,
+   "yaw": 0.0,
+   "clear_x": 24.391,
+   "clear_y": 31.32,
+   "group": true,
+   "size": 1
+  },
+  {
+   "name": "person_C_east_g01",
+   "route": "C_east",
+   "s": 46.599,
+   "x": 32.502,
+   "y": 33.399,
+   "yaw": 0.0,
+   "clear_x": 29.486,
+   "clear_y": 36.415,
+   "group": true,
+   "size": 1
+  },
+  {
+   "name": "person_C_east_g02",
+   "route": "C_east",
+   "s": 52.401,
+   "x": 34.71,
+   "y": 37.489,
+   "yaw": 0.0,
+   "clear_x": 31.1,
+   "clear_y": 37.489,
+   "group": true,
+   "size": 1
+  },
+  {
+   "name": "person_C_east_g03",
+   "route": "C_east",
+   "s": 62.046,
+   "x": 34.863,
+   "y": 48.829,
+   "yaw": 0.0,
+   "clear_x": 30.404,
+   "clear_y": 48.829,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_C_east_g04",
+   "route": "C_east",
+   "s": 67.297,
+   "x": 35.192,
+   "y": 53.132,
+   "yaw": 0.0,
+   "clear_x": 30.731,
+   "clear_y": 53.132,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_C_east_g05",
+   "route": "C_east",
+   "s": 73.297,
+   "x": 33.551,
+   "y": 60.996,
+   "yaw": 0.0,
+   "clear_x": 31.055,
+   "clear_y": 60.996,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_C_east_g06",
+   "route": "C_east",
+   "s": 83.612,
+   "x": 33.592,
+   "y": 70.089,
+   "yaw": 0.0,
+   "clear_x": 30.076,
+   "clear_y": 70.089,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_C_east_g07",
+   "route": "C_east",
+   "s": 91.122,
+   "x": 35.081,
+   "y": 76.21,
+   "yaw": 0.0,
+   "clear_x": 31.1,
+   "clear_y": 76.21,
+   "group": true,
+   "size": 1
+  },
+  {
+   "name": "person_C_east_g08",
+   "route": "C_east",
+   "s": 100.192,
+   "x": 33.829,
+   "y": 86.956,
+   "yaw": 0.0,
+   "clear_x": 30.566,
+   "clear_y": 86.956,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_C_east_g09",
+   "route": "C_east",
+   "s": 111.713,
+   "x": 29.247,
+   "y": 96.369,
+   "yaw": 0.0,
+   "clear_x": 26.006,
+   "clear_y": 93.128,
+   "group": true,
+   "size": 5
+  },
+  {
+   "name": "person_C_east_g10",
+   "route": "C_east",
+   "s": 117.003,
+   "x": 26.402,
+   "y": 98.948,
+   "yaw": 0.0,
+   "clear_x": 23.653,
+   "clear_y": 96.199,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_C_east_g12",
+   "route": "C_east",
+   "s": 46.253,
+   "x": 34.813,
+   "y": 33.684,
+   "yaw": 0.0,
+   "clear_x": 38.16,
+   "clear_y": 30.337,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_C_east_g13",
+   "route": "C_east",
+   "s": 52.286,
+   "x": 38.694,
+   "y": 40.132,
+   "yaw": 0.0,
+   "clear_x": 41.976,
+   "clear_y": 40.132,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_C_east_g14",
+   "route": "C_east",
+   "s": 57.807,
+   "x": 37.612,
+   "y": 45.187,
+   "yaw": 0.0,
+   "clear_x": 41.963,
+   "clear_y": 45.187,
+   "group": true,
+   "size": 4
+  },
+  {
+   "name": "person_C_east_g15",
+   "route": "C_east",
+   "s": 64.386,
+   "x": 37.755,
+   "y": 50.929,
+   "yaw": 0.0,
+   "clear_x": 41.385,
+   "clear_y": 50.929,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_C_east_g16",
+   "route": "C_east",
+   "s": 72.449,
+   "x": 37.82,
+   "y": 58.677,
+   "yaw": 0.0,
+   "clear_x": 41.077,
+   "clear_y": 58.677,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_C_east_g17",
+   "route": "C_east",
+   "s": 93.941,
+   "x": 37.189,
+   "y": 81.789,
+   "yaw": 0.0,
+   "clear_x": 41.237,
+   "clear_y": 81.789,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_C_east_g18",
+   "route": "C_east",
+   "s": 101.292,
+   "x": 38.228,
+   "y": 87.02,
+   "yaw": 0.0,
+   "clear_x": 41.171,
+   "clear_y": 87.02,
+   "group": true,
+   "size": 2
+  },
+  {
+   "name": "person_C_east_g19",
+   "route": "C_east",
+   "s": 109.951,
+   "x": 33.973,
+   "y": 97.059,
+   "yaw": 0.0,
+   "clear_x": 36.258,
+   "clear_y": 99.344,
+   "group": true,
+   "size": 3
+  },
+  {
+   "name": "person_C_east_g20",
+   "route": "C_east",
+   "s": 128.731,
+   "x": 21.965,
+   "y": 110.081,
+   "yaw": 0.0,
+   "clear_x": 23.604,
+   "clear_y": 111.72,
+   "group": true,
+   "size": 2
+  }
+ ],
+ "first_aid": {
+  "door_enu": [
+   8.6,
+   -15.0
+  ],
+  "door_heading": 3.1416,
+  "inside_enu": [
+   14.5,
+   -15.0
+  ],
+  "medic_run_enu": [
+   [
+    8.6,
+    -15.0
+   ],
+   [
+    3.6,
+    -8.0
+   ]
+  ],
+  "cart_route_enu": [
+   [
+    0.0,
+    -15.0
+   ]
+  ]
+ },
+ "patient_enu": [
+  0.0,
+  112.0,
+  0.0
+ ],
+ "rescue_models": {
+  "medics": [
+   "medic_0",
+   "medic_1"
+  ],
+  "stretcher": "stretcher",
+  "patient": "patient"
+ },
+ "walkers": [],
+ "marker": {
+  "name": "drone_marker",
+  "dz": 1.4
+ },
+ "ambient": []
+}

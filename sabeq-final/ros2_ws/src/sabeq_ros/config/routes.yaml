@@ -1,0 +1,54 @@
+frame: gazebo_world
+start: [0.0, 0.0]
+incident: [0.0, 112.0]
+home_enu:
+  - 0.0
+  - -0.1
+
+hover_point_enu:
+  - 0.0
+  - 0.0
+
+incident_enu:
+  - 0.0
+  - 112.0
+
+flight_altitude_m: 8.0
+
+scan_settle_s: 1.5
+scan_hold_s: 12.0
+
+vehicle_speed_mps: 3.0
+delay_per_person_s: 0.5
+
+scan_order:
+  - A_west
+  - B_north
+  - C_east
+
+routes:
+
+  A_west:
+    scan_yaw_ned_deg: 315.0
+    waypoints:
+      - [0.0, 0.0]
+      - [-36.0, 36.0]
+      - [-36.0, 92.0]
+      - [-16.0, 112.0]
+      - [0.0, 112.0]
+
+  B_north:
+    scan_yaw_ned_deg: 0.0
+    waypoints:
+      - [0.0, 0.0]
+      - [0.0, 98.0]
+      - [0.0, 112.0]
+
+  C_east:
+    scan_yaw_ned_deg: 45.0
+    waypoints:
+      - [0.0, 0.0]
+      - [36.0, 36.0]
+      - [36.0, 92.0]
+      - [16.0, 112.0]
+      - [0.0, 112.0]

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+.pytest_cache/
+.DS_Store
+*.bak
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/

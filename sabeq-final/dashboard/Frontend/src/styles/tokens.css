@@ -1,0 +1,122 @@
+/* Design tokens — Sabeq Dashboard v2 */
+
+:root {
+  /* Surfaces & ink */
+  --bg: #f3f0ea;
+  --surf: #ffffff;
+  --surf2: #f8f6f2;
+  --ink: #1e1c19;
+  --mut: #6b655c;
+  --line: #e3ddd2;
+
+  /* Accent / status */
+  --acc: #1fa37a;
+  --btn: #137f5c;
+  --btnInk: #ffffff;
+  --accSoft: #e2f2ea;
+  --accDeep: #0f6b4d;
+  --red: #c9412f;
+  --redSoft: #fae8e4;
+  --amb: #b97a12;
+  --rt3: #5a67c9; /* third route tone (cards, chips) */
+  --ambSoft: #f7ecd8;
+  --rec: #e5483f;
+  --overlay: rgba(20, 18, 16, 0.72);
+  --white: #ffffff;
+
+  /* Map palette */
+  --ground: #ece6da;
+  --pav: #ddd3c3;
+  --path: #fbf9f5;
+  --park: #d3e1cb;
+  --plaza: #e6d9c3;
+  --zA: #e6d8c1;
+  --zB: #d6e0d8;
+  --zC: #ebd5c8;
+  --zD: #e0ddc6;
+  --pavSh: rgba(80, 60, 30, 0.12);
+  --roof: rgba(255, 255, 255, 0.6);
+  --tree: #b5caa6;
+  --water: #c7dfe2;
+
+  --shadow: 0 1px 2px rgba(40, 30, 20, 0.05), 0 6px 20px rgba(40, 30, 20, 0.06);
+
+  /* Typography */
+  --font-sans: 'IBM Plex Sans', 'IBM Plex Sans Arabic', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --fs-2xs: 10px;
+  --fs-xs: 11px;
+  --fs-sm: 12px;
+  --fs-md: 13px;
+  --fs-base: 14px;
+  --fs-lg: 15px;
+  --fs-xl: 16px;
+  --fs-2xl: 17px;
+  --fs-3xl: 18px;
+  --fs-4xl: 22px;
+  --fs-hero: 44px;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+
+  /* Spacing */
+  --sp-1: 2px;
+  --sp-2: 4px;
+  --sp-3: 6px;
+  --sp-4: 8px;
+  --sp-5: 10px;
+  --sp-6: 12px;
+  --sp-7: 14px;
+  --sp-8: 16px;
+  --sp-9: 18px;
+  --sp-10: 20px;
+
+  /* Radii */
+  --r-xs: 5px;
+  --r-sm: 7px;
+  --r-md: 10px;
+  --r-lg: 12px;
+  --r-xl: 14px;
+  --r-2xl: 18px;
+  --r-pill: 999px;
+
+  /* Layout */
+  --header-h: 64px;
+  --nav-w: 76px;
+  --aside-w: clamp(360px, 27vw, 460px);
+}
+
+:root[data-theme='dark'] {
+  --bg: #12110f;
+  --surf: #1b1a17;
+  --surf2: #211f1c;
+  --ink: #ece7df;
+  --mut: #a09a90;
+  --line: #302d28;
+  --acc: #2db889;
+  --btn: #2db889;
+  --btnInk: #0b1511;
+  --accSoft: #15302556;
+  --accDeep: #6fd9b1;
+  --red: #ea6a57;
+  --redSoft: #3a201c;
+  --amb: #e3a742;
+  --rt3: #8f9bf0;
+  --ambSoft: #33281a;
+  --ground: #191815;
+  --pav: #2a2824;
+  --path: #36332d;
+  --park: #1e2a21;
+  --plaza: #2f2a22;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 6px 20px rgba(0, 0, 0, 0.3);
+  --zA: #302a22;
+  --zB: #222c27;
+  --zC: #32261f;
+  --zD: #2b2b22;
+  --pavSh: rgba(0, 0, 0, 0.35);
+  --roof: rgba(255, 255, 255, 0.07);
+  --tree: #2c3c2e;
+  --water: #1b2e32;
+}
